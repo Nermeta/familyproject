@@ -1,4 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+ 
+h1, h2, h3, h4, h5, h6 {
+    font-family:"IM Fell French Canon SC" ;
+}
+p {
+    font-family: Lato, Helvetica, sans-serif;
+}
 a {
     text-decoration: none;
     padding:1em;
