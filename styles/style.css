@@ -3,7 +3,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-family:"IM Fell French Canon SC" ;
 }
-p {
+p, li {
     font-family: Lato, Helvetica, sans-serif;
 }
 a {
@@ -12,6 +12,13 @@ a {
     min-width: 120px;
     padding: 10px;
 }
+  ol{
+    display: table;
+    margin: 0 auto;
+    color: #53917E;
+
+ }
+
 
 
 .posts-container {
@@ -200,3 +207,38 @@ h1, p{
     box-shadow: 0px 4px 8px #353535 ;
 }
 
+blockquote{
+    font-size: 1.4em;
+    width:60%;
+    margin:50px auto;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #78C0A8 ;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+  }
+  
+  blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+  
+  blockquote::after{
+    content: '';
+  }
+  
+  blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  }
